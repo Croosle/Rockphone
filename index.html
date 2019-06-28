@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Rockphone</title>
+    <link rel="stylesheet" href="dist/app.css">
+  </head>
+
+  <body>
+    <section class="main-section">
+      <div class="container">
+        <header>
+          <nav class="navbar">
+            <a class="navbar-brand" href="#">
+              Rockphone
+            </a>
+
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Каталог</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Доставка</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+
+        <div class="main-section__block">
+          <h3 class="main-section__block-title">Противоударные телефоны<br />с гарантией неубиваемости!</h3>
+          <p class="main-section__block-slogan">Оставайтесь на связи в любых условиях</p>
+          <button class="btn main-section__block-button" type="button" data-toggle="modal" data-target="#orderModal">Приобрести</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog-section">
+      <div class="container">
+        <h3 class="catalog-section__title">Противоударные мобильные телефоны</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="/product.html" class="catalog-section__block">
+              <img src="img/phone-1.png" class="catalog-section__block-img" alt="">
+              <p class="catalog-section__block-name">JEASUNG D6 Octa Core IP68</p>
+              <p>16 990 ₽</p>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="/product.html" class="catalog-section__block">
+              <img src="img/phone-2.png" class="catalog-section__block-img" alt="">
+              <p class="catalog-section__block-name">JEASUNG D6 Octa Core IP68</p>
+              <p>16 990 ₽</p>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="/product.html" class="catalog-section__block">
+              <img src="img/phone-3.png" class="catalog-section__block-img" alt="">
+              <p class="catalog-section__block-name">JEASUNG D6 Octa Core IP68</p>
+              <p>16 990 ₽</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="row">
+            <div class="col-4">
+              <div class="modal-payment">
+                <span>К оплате</span>
+                <p class="modal-payment__price">16 990 руб</p>
+                <input type="email" class="form-control mb-2" placeholder="E-mail">
+                <input type="text" class="form-control mb-2" placeholder="Телефон">
+                <button type="button" class="modal-payment__button">Купить</button>
+                <p>Назад</p>
+              </div>
+            </div>
+            <div class="col-6">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="dist/app.js" charset="utf-8"></script>
+  </body>
+</html>
